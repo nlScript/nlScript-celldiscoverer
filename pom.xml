@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+		http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.scijava</groupId>
+		<artifactId>pom-scijava</artifactId>
+		<version>31.1.0</version>
+		<relativePath />
+	</parent>
+
+	<groupId>io.github.nlScript</groupId>
+	<artifactId>nlScript-celldiscoverer</artifactId>
+	<version>0.1</version>
+
+	<name>nlScript Celldiscoverer</name>
+	<description>Use nlScript to control imaging pipelines on the Zeiss Celldiscoverer 7.</description>
+
+	<url>https://github.com/nlScript/nlScript-celldiscoverer</url>
+
+	<inceptionYear>2024</inceptionYear>
+
+	<organization>
+		<name>OICE</name>
+		<url>http://oice.uni-erlangen.de</url>
+	</organization>
+
+	<licenses>
+		<license>
+			<name>Simplified BSD License</name>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<developers>
+		<developer>
+			<id>bschmid</id>
+			<name>Benjamin Schmid</name>
+			<url>https://github.com/bene51</url>
+			<roles>
+				<role>lead</role>
+				<role>developer</role>
+				<role>debugger</role>
+				<role>reviewer</role>
+				<role>support</role>
+				<role>maintainer</role>
+				<role>founder</role>
+			</roles>
+		</developer>
+	</developers>
+
+	<contributors>
+		<contributor>
+			<name>none</name>
+		</contributor>
+	</contributors>
+
+	<mailingLists>
+		<mailingList>
+			<name>none</name>
+		</mailingList>
+	</mailingLists>
+
+	<scm>
+		<connection>scm:git:https://github.com/nlScript/nlScript-celldiscoverer</connection>
+		<developerConnection>scm:git:git@github.com:nlScript/nlScript-celldiscoverer</developerConnection>
+		<tag>HEAD</tag>
+		<url>https://github.com/nlScript/nlScript-celldiscoverer</url>
+	</scm>
+	<issueManagement>
+		<system>GitHub Issues</system>
+		<url>https://github.com/nlScript/nlScript-celldiscoverer/issues</url>
+	</issueManagement>
+
+	<ciManagement>
+		<system>none</system>
+	</ciManagement>
+
+	<properties>
+		<license.licenseName>bsd_2</license.licenseName>
+		<license.copyrightOwners>Benjamin Schmid</license.copyrightOwners>
+	</properties>
+
+
+	<dependencies>
+		<dependency>
+			<groupId>io.github.nlScript</groupId>
+			<artifactId>nlScript-microscope-language</artifactId>
+			<version>0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>net.imagej</groupId>
+			<artifactId>ij</artifactId>
+		</dependency>
+	</dependencies>
+
+</project>

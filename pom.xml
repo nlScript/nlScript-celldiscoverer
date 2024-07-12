@@ -12,9 +12,9 @@
 		<relativePath />
 	</parent>
 
-	<groupId>io.github.nlScript</groupId>
+	<groupId>io.github.nlscript</groupId>
 	<artifactId>nlScript-celldiscoverer</artifactId>
-	<version>0.1</version>
+	<version>0.1.0</version>
 
 	<name>nlScript Celldiscoverer</name>
 	<description>Use nlScript to control imaging pipelines on the Zeiss Celldiscoverer 7.</description>
@@ -87,14 +87,31 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>io.github.nlScript</groupId>
+			<groupId>io.github.nlscript</groupId>
 			<artifactId>nlScript-microscope-language</artifactId>
-			<version>0.1</version>
+			<version>0.1.0</version>
 		</dependency>
 		<dependency>
 			<groupId>net.imagej</groupId>
 			<artifactId>ij</artifactId>
 		</dependency>
 	</dependencies>
+
+        <build>
+                <plugins>
+                        <plugin>
+                                <groupId>org.apache.maven.plugins</groupId>
+                                <artifactId>maven-javadoc-plugin</artifactId>
+                                <executions>
+                                        <execution>
+                                                <id>attach-javadocs</id>
+                                                <goals>
+                                                        <goal>jar</goal>
+                                                </goals>
+                                        </execution>
+                                </executions>
+                        </plugin>
+                </plugins>
+        </build>
 
 </project>

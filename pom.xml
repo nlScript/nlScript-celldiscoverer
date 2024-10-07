@@ -14,7 +14,7 @@
 
 	<groupId>io.github.nlscript</groupId>
 	<artifactId>nlScript-celldiscoverer</artifactId>
-	<version>0.1.0</version>
+	<version>0.2.0</version>
 
 	<name>nlScript Celldiscoverer</name>
 	<description>Use nlScript to control imaging pipelines on the Zeiss Celldiscoverer 7.</description>
@@ -89,7 +89,7 @@
 		<dependency>
 			<groupId>io.github.nlscript</groupId>
 			<artifactId>nlScript-microscope-language</artifactId>
-			<version>0.1.0</version>
+			<version>0.2.0</version>
 		</dependency>
 		<dependency>
 			<groupId>net.imagej</groupId>
